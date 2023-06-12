@@ -1,0 +1,25 @@
+﻿<Window x:Class="Task16.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task16"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="resultText" Content="Label" HorizontalAlignment="Left" Margin="45,30,0,0" VerticalAlignment="Top" Height="303" Width="464" Background="#FFC3C3C3"/>
+        <Button x:Name="getButton" Content="GET" HorizontalAlignment="Left" Margin="43,382,0,0" VerticalAlignment="Top" Click="getButton_Click" Background="#FFBDCBF7" />
+        <Button x:Name="postButton" Content="POST" HorizontalAlignment="Left" Margin="101,382,0,0" VerticalAlignment="Top" Click="postButton_Click" Background="#FFBDCBF7"/>
+        <Button x:Name="putButton" Content="PUT" HorizontalAlignment="Left" Margin="161,382,0,0" VerticalAlignment="Top" RenderTransformOrigin="3.823,0.553" Click="putButton_Click" Background="#FFBDCBF7"/>
+        <Button x:Name="deleteButton" Content="DELETE" HorizontalAlignment="Left" Margin="215,382,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.261,0.653" Click="deleteButton_Click" Background="#FFBDCBF7"/>
+        <TextBox x:Name="idTextBox" HorizontalAlignment="Left" Margin="623,34,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" />
+        <TextBox x:Name="dateTextBox" HorizontalAlignment="Left" Margin="623,62,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" />
+        <TextBox x:Name="degreeTextBox" HorizontalAlignment="Left" Margin="623,92,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" />
+        <TextBox x:Name="locationTextBox" HorizontalAlignment="Left" Margin="623,121,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" />
+        <Label x:Name="resultText_Copy" Content="id" HorizontalAlignment="Left" Margin="545,30,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="resultText_Copy1" Content="Дата" HorizontalAlignment="Left" Margin="545,58,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="resultText_Copy2" Content="Градусы" HorizontalAlignment="Left" Margin="545,88,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="resultText_Copy3" Content="Место" HorizontalAlignment="Left" Margin="545,117,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
